@@ -20,7 +20,10 @@
       url("../assets/fonts/titillium-web/titillium-web-v10-latin-regular.svg#TitilliumWeb")
       format("svg"); /* Legacy iOS */
 }
-
+.col, .container, .col-12, .col-2, .row, .wrapper{
+  padding: 0;
+  margin: 0;
+}
 .rectangle-menu img {
   width: 149.84px;
   height: 121.49px;
@@ -30,36 +33,81 @@
   width: 100%;
   height: 123.4px;
   position: absolute;
-  top: 70%;
+  top: 645.64px;
+  left: 0;
+
 }
+
 .wrapper {
   width: 847.01px;
   height: 949.06px;
   position: relative;
-  margin:0;
   padding: 0;
 }
 .first{
-  margin-left: 0;
+  margin: 0;
 }
 .second,
 .third,
-.four,
 .five {
   margin-left: 24.44px;
 }
-
+.four{
+  margin-left: 24.47px;
+}
 .giant-polygon {
-  width: 722.75px;
+  width: 100%;
+  height: 100%;
+}
+
+
+.giant-polygon img {
+  width: 791.11px;
   height: 726.36px;
 }
 
 .text {
+  width: 315.53px;
+  height: 53.79px;
   position: absolute;
   top: 76.33px;
-  left: 203.69px;
-  font-size: 38px;
+  left: 278.69px;
+  font-size: 41.55px;
+  line-height:49.86px;
   font-weight: 600;
   font-family: Titillium Web;
   color: #423f40;
+  text-align: center;
 }
+.module-1 img{
+  width: 190.87px;
+  height: 191.14px;
+  position: absolute;
+  top:211.37px;
+  left: 339.7px;
+}
+
+.certificacao img{
+  width: 130.67px;
+  height: 130.67px;
+  position: absolute;
+  top: 241.47px;
+  left: 521.7px;
+}
+
+.module-2 img{
+  width: 190.87px;
+  height: 191.14px;
+  position: absolute;
+  top:415.24px;
+  left: 339.7px;
+}
+
+.certificacao-2 img{
+  width: 130.67px;
+  height: 130.67px;
+  position: absolute;
+  top: 445.34px;
+  left: 521.7px;
+}
+
