@@ -483,7 +483,7 @@ line-height: 108.56px;
 
       .adm-responsive-idc, .responsive-xs{
         display: unset;
-        margin-left: 30%;
+        margin-left: 29%;
       }
 
       .adm-module-2-responsive, .adm-module-1-responsive{
@@ -491,7 +491,7 @@ line-height: 108.56px;
         margin-left: 20%;
       }
       .adm-module-2-responsive img, .adm-module-1-responsive img{
-        width: 60%;
+        width: 90%;
       }
 
       .certificacao-parcial{
@@ -515,6 +515,7 @@ line-height: 108.56px;
         line-height: 120%;
         text-align: center;
         margin-top: 6%;
+        margin-left: -2%;
       }
 
       .adm-rectangle-menu{
@@ -547,14 +548,14 @@ line-height: 108.56px;
         position: absolute;
         margin-left: 10%;
         top: 53%;
-        left: 36%;
+        left: 45%;
       }
 
       .adm-responsive-instagram{
         position: absolute;
         margin-left: 10%;
         top: 53%;
-        left: 60%;
+        left: 75%;
       }
 
       .adm-midia-socials-rectangle{
