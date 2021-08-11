@@ -1,160 +1,167 @@
-  /* Responsive */
-  @media only screen and (max-width: 767px) {
+ /* Responsive */
+ @media only screen and (max-width: 767px) {
       
-    /* Módulo 1 & 2 */
-    .adm-wrapper-top, .adm-biblioteca-icon, .adm-icons { 
-      display: none;
-    }
-
-    .adm-text-module-disc, .adm-text-module-disc h3, .adm-first-title, .adm-text-module-disc p {
-      width: 100%;
-      margin-left: 0;
-    }
-    
-    .adm-responsive-profissionals{
-      text-align: center;
-    }
-
-    .adm-responsive-title h3{
-      font-family: Titillium Web;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 65px;  
-      line-height: 120%;
-      text-align: center;
-      color: #BB0823;
-     
-    }
-
-    .adm-text-module-disc h3 {
-      text-align: center;
-    }
-
-    .adm-responsive-title p{
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 24px;
-      line-height: 31px;
-      color: #000000;
-      margin-top: 8%;
-      margin-left: 5%;
-    }
-    .adm-responsive-biblioteca{
-      text-align: center;
-    }
-    .adm-responsive-biblioteca img{
-      margin-top: 10%;
-    }
-
-    hr.adm-red {
-      width: 96%;
-    }
-
-    .adm-text-module-disc-right ,.adm-text-module-disc-right h3, .adm-text-module-disc-right p, .adm-right-h3, .adm-right-p{
-      width: 100%;
-    }
-    .adm-text-module-disc-right{
-      margin: 0;
-    }
-
-    .adm-text-module-disc p, .adm-text-module-disc-right p{
+  /* Módulo 1 & 2 */
+  .responsive-xs{
+    display: unset;
+  }
+  
+  .adm-wrapper-top, .adm-biblioteca-icon, .adm-icons, .adm-pessoas, .adm-text-module, .adm-poligonos img, .adm-text-module h2, .adm-poligonos, .adm-pagina-incial-pessoas, .adm-biblioteca-icon img, .adm-icons .adm-ebook, .adm-icons .adm-atividade, .adm-icons .adm-videos{ 
+     display: none; 
+      width: 60%;
       height: fit-content;
-      margin-bottom: 10% ;
-    }
+      left: 0;
+      font-size: 10px;
+  }
 
-    .adm-responsive-icons{
-      text-align: center;
-    }
+  .adm-text-module-disc, .adm-text-module-disc h3, .adm-first-title, .adm-text-module-disc p {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  .adm-responsive-profissionals{
+    text-align: center;
+  }
 
-    .adm-responsive-modulo2 h3 {
-      color: #423F40
-    }
+  .adm-responsive-title h3{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;  
+    line-height: 120%;
+    text-align: center;
+    color: #BB0823;
+   
+  }
+
+  .adm-text-module-disc h3 {
+    text-align: center;
+  }
+
+  .adm-responsive-title p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    margin-top: 8%;
+    margin-left: 5%;
+  }
+  .adm-responsive-biblioteca{
+    text-align: center;
+  }
+  .adm-responsive-biblioteca img{
+    margin-top: 10%;
+  }
+
+  hr.adm-red {
+    width: 96%;
+  }
+
+  .adm-text-module-disc-right ,.adm-text-module-disc-right h3, .adm-text-module-disc-right p, .adm-right-h3, .adm-right-p{
+    width: 100%;
+  }
+  .adm-text-module-disc-right{
+    margin: 0;
+  }
+
+  .adm-text-module-disc p, .adm-text-module-disc-right p{
+    height: fit-content;
+    margin-bottom: 10% ;
+  }
+
+  .adm-responsive-icons{
+    text-align: center;
+  }
+
+  .adm-responsive-modulo2 h3 {
+    color: #423F40
+  }
 
 
 
-    /* Moodle Face */
-    .adm-giant-polygon {
-      display: none;
-    }
+  /* Moodle Face */
+  .adm-giant-polygon {
+    display: none;
+  }
 
-    .adm-responsive-idc, .responsive-xs{
-      display: unset;
-      margin-left: 33%;
-    }
+  .adm-responsive-idc, {
+    margin-left: 33%;
+  }
 
-    .adm-module-2-responsive, .adm-module-1-responsive{
-      display: unset;
-      margin-left: 16%;
-    }
-    .adm-module-2-responsive img, .adm-module-1-responsive img{
-      width: 90%;
-    }
+  .adm-module-2-responsive, .adm-module-1-responsive{
+    display: unset;
+    margin-left: 16%;
+  }
+  .adm-module-2-responsive img, .adm-module-1-responsive img{
+    width: 90%;
+  }
 
-    .certificacao-parcial{
-      margin-top: 6%;
-      margin-left: 12%;
-      margin-bottom: 6%;
-      width: 110%;
-    }
+  .certificacao-parcial{
+    margin-top: 6%;
+    margin-left: 12%;
+    margin-bottom: 6%;
+    width: 110%;
+  }
 
-    .certificacao-parcial-2{
-      margin-top: 6%;
-      margin-left: 12%;
-      width: 110%;
-    }
+  .certificacao-parcial-2{
+    margin-top: 6%;
+    margin-left: 12%;
+    width: 110%;
+  }
 
-    .adm-responsive-text p{
-      font-family: Titillium Web;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 42px;
-      line-height: 120%;
-      text-align: center;
-      margin-top: 6%;
-      margin-left: -2%;
-    }
+  .adm-responsive-text p{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 120%;
+    text-align: center;
+    margin-top: 6%;
+    margin-left: -2%;
+  }
 
-    .adm-rectangle-menu{
-      display: none;
-    }
+  .adm-rectangle-menu{
+    display: none;
+  }
 
-    .adm-responsive-menu{
-      margin-left: 4%;
-      margin-top: 12%;
-    }
+  .adm-responsive-menu{
+    margin-left: 4%;
+    margin-top: 12%;
+  }
 
-    .adm-responsive-midia-sociais{
-      margin-left: 10%;
-      margin-top: 10%;
-    }
+  .adm-responsive-midia-sociais{
+    margin-left: 10%;
+    margin-top: 10%;
+  }
 
-    .adm-responsive-wrapper{
-      position: relative;
-      width: 100%;
-    }
+  .adm-responsive-wrapper{
+    position: relative;
+    width: 100%;
+  }
 
-    .adm-responsive-facebook{
-      position: absolute;
-      margin-left: 10%;
-      top: 53%;
-      left: 12%;
-    }
+  .adm-responsive-facebook{
+    position: absolute;
+    margin-left: 10%;
+    top: 53%;
+    left: 12%;
+  }
 
-    .adm-responsive-wpp{
-      position: absolute;
-      margin-left: 10%;
-      top: 53%;
-      left: 45%;
-    }
+  .adm-responsive-wpp{
+    position: absolute;
+    margin-left: 10%;
+    top: 53%;
+    left: 45%;
+  }
 
-    .adm-responsive-instagram{
-      position: absolute;
-      margin-left: 10%;
-      top: 53%;
-      left: 75%;
-    }
+  .adm-responsive-instagram{
+    position: absolute;
+    margin-left: 10%;
+    top: 53%;
+    left: 75%;
+  }
 
-    .adm-midia-socials-rectangle{
-      display: none;
-    }
+  .adm-midia-socials-rectangle{
+    display: none;
+  }
